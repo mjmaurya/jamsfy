@@ -100,10 +100,20 @@ section{
 	text-align: start;
 	padding: 20px;
 }
-
-
+input{
+	color: #fff;
+}
+span{
+	color: red;
+}
+.number::-webkit-inner-spin-button, 
+.number::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
 .details{
 	text-align: start;
+	margin-bottom: 100px;
 }
 .details2{
 	color: white;

@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <script src="main.js"></script>
+   
 </head>
 <body>
 	<HEADER>
@@ -165,22 +165,26 @@ We hold cutting edge expertise in building and delivering lightning-fast JAMstac
 				<div class="col-sm-8">
 					<div class="details2">
 						<h2>Have any queries?</h2>
-						<form target="index.html" method="post">
+						<form name="contact" action="index.html" method="post" onsubmit="return validateContact();">
 							<div class="form-group">
 								<label> Name</label>
-								<input type="text" class="form-control" name="name">
+								<input id="name" type="text" class="form-control" oninput="nameFunction()" name="name">
+								<span id="nameE"></span>
 							</div>
 							<div class="form-group">
 								<label> Email</label>
-								<input type="email" class="form-control" name="email">
+								<input id="email" type="email" oninput="emailFunction()" class="form-control" name="email">
+								<span id="emailE"></span>
 							</div>
 							<div class="form-group">
 								<label> Phone</label>
-								<input type="mobile" class="form-control" name="mobile">
+								<input id="mobile" oninput="mobileFunction()" type="number" class="form-control number" name="mobile">
+								<span id="mobileE"></span>
 							</div>
 							<div class="form-group">
 								<label> Query</label>
-								<input type="text" class="form-control" name="message">
+								<input id="message" type="text" oninput="messageFunction()" class="form-control" name="message">
+								<span id="messageE"></span>
 							</div>
 							<button type="submit" class="btn btn-primary">Send Message</button>
 						</form>
@@ -268,11 +272,14 @@ We hold cutting edge expertise in building and delivering lightning-fast JAMstac
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+
+ <script type="text/javascript" src="main.js"></script>
     <script>
         var scroll = new SmoothScroll('a[href*="#"]', {
 	speed: 700,
 	
 });
+        //document.getElementById('name').value="manoj";
          </script>
 </body>
 </html>
