@@ -1,0 +1,131 @@
+body{
+	margin: 0px;
+	padding:0px;
+	background-color: #f2f2f2;
+}
+h1{
+	font-family: Gill Sans Extrabold, sans-serif;
+	margin-bottom: 50px;
+}
+h2{
+	font-family: Georgia, serif;
+}
+h3{
+	font-family: Gill Sans Extrabold, sans-serif;
+}
+h4{
+	font-family: sans-serif;
+}
+ul{
+	list-style: none;
+	text-decoration: none;
+}
+li{
+	margin: 10px;
+}
+.hero-btn{
+	padding-right: 25px;
+	padding-left: 25px;
+	margin-left: 100px;
+	border-radius: 20px;
+	font-weight:bold;
+	background-color: #006666;
+	color: #fff;
+
+}
+.navbar-nav a{
+	font-weight: bold;
+}
+section{
+	text-align: center;
+  padding-top: 120px;
+  padding-bottom: 70px;
+	width: 100%;
+}
+.hero-text{
+	margin-bottom: 50px;
+	text-align: start;
+}
+.hero-text h2{
+	color: #003333;
+	font-weight: bold;
+}
+.hero-text div{
+	margin-top: 30px;
+	font-weight: bold;
+	font-size: 1.2em;
+	padding: 10px;
+	font-family: Sen, sans-serif;
+	color: rgb(110, 116, 119);
+}
+.hero{
+	width: 100%;
+	border-radius:200px 0px 0px;
+	background-color: red;
+	height: 500px;
+}
+
+/* About Section */
+.hero-about{
+	width: 100%;
+	border-radius:200px 0px 200px 0px;
+	height: 100vh;
+}
+
+.about-text{
+	margin-bottom: 50px;
+	text-align: start;
+	padding-left: 50px;
+}
+.about-text h2{
+	color: #003333;
+	text-align: start;
+	font-weight: bold;
+}
+.about-text div{
+	margin-top: 30px;
+	font-weight: bold;
+	font-size: 1.1em;
+	padding: 10px;
+	font-family: Sen, sans-serif;
+}
+
+
+/* Service Section */
+.serviceN{
+	padding: 20px;
+}
+
+.servicePara{
+	text-align: start;
+	padding: 20px;
+}
+
+
+.details{
+	text-align: start;
+}
+.details2{
+	color: white;
+text-align: start;
+background-color:#006666;
+margin-left:20px;
+margin-right: 20px;
+padding: 70px;
+border-radius: 20px;
+}
+.footer{
+	color: white;
+	padding-top: 50px;
+	background-color:  #003333;
+}
+.modal-dialog{
+	padding: 10px;
+	background-color: #006600;
+	border-radius: 20px;
+}
+.modal-content{
+	padding: 50px;
+	background-color: #cce6ff;
+	border-radius: 20px;
+}
